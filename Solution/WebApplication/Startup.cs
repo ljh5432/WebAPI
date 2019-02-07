@@ -36,6 +36,7 @@ namespace WebApplication
             }
 
             app.UseMvc();
+            app.UseStaticFiles(); // wwwroot 페이지안에 정적 파일을 사용하도록 한다.
         }
     }
 }
